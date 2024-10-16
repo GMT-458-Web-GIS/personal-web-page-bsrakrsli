@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Büşra Kirişli - Kişisel Web Sayfası</title>
+
+  <!-- CSS ve OpenLayers Bağlantısı -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.0.0/ol.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ol@v7.0.0/ol.js"></script>
+  <script src="script.js" defer></script> <!-- JavaScript dosyasını ekliyoruz -->
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1>Büşra Kirişli</h1>
+      <ul>
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#about">Hakkımda</a></li>
+        <li><a href="#skills">Yeteneklerim</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <img src="/Users/bus/Desktop/busrakirisliwebsite/IMG_5093.jpg" alt="Büşra Kirişli Fotoğrafı" class="profile-photo">
+      <h2>Geomatik Mühendisi</h2>
+      <p>4.sinif</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Hakkımda</h2>
+    <p>Ben Hacettepe Üniversitesi Geomatik Mühendisliği 4. sınıf öğrencisiyim. Kariyerime maden sektöründe devam etmeyi planlıyorum.
+
+        İlk olarak, Basarsoft'ta Web Yazılım Departmanı'nda .NET Web API kullanarak harita tabanlı bir web sitesi geliştirdim. Bu deneyimim, yazılım geliştirme süreçlerini ve harita teknolojilerini derinlemesine anlamamı sağladı.
+        
+        Daha sonra, Öksüt Madencilik/Centarra Gold'da staj yaptım. Bu süreçte, maden sektöründe uzaktan algılama tekniklerini kullanarak çalıştım. Bu deneyim, sektörün dinamiklerini anlamama ve teknik becerilerimi geliştirmeme yardımcı oldu.
+        
+        Gelecekte, maden sektöründeki gelişmeleri takip ederek bu alanda uzmanlaşmayı hedefliyorum.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Yeteneklerim</h2>
+    <ul>
+      <li>Phyton</li>
+      <li>Agisoft Metashape Pro</li>
+      <li>Autocad Civil 3D</li>
+      <li>Madencilikte Fotogrametri/3D modelleme ve Haritalama</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Email: busrakirisli@gmail.com</p>
+    <p>Telefon: +90 535 030 07 66</p>
+  </section>
+
+  <div id="map" class="map-container"></div> <!-- Harita burada gösterilecek -->
+
+  <footer>
+    <p>© 2024 Büşra Kirişli | Geomatik Mühendisi</p>
+  </footer>
+</body>
+</html>
